@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff9e1cf5-0a93-4a27-be5f-a78fd55e5fc8">
+  <producedTypes>
+    <objectType typeId="d7e04ae3-35a3-462c-a2bd-2eec9eacae2b" valueTypeId="3c54818f-c42e-4179-8b7b-c8f11d59b280"/>
+    <refType typeId="d8818b73-d0cd-4ea3-8fd4-cc53aa5d2870" valueTypeId="b73b4611-6313-4ae2-9740-54c87f42c060"/>
+    <selectionType typeId="5f2020fa-2c2e-4a1e-9e60-318afcd1e870" valueTypeId="923de388-c9f2-4674-b9d6-30f980fc3017"/>
+    <listType typeId="65a17e23-9446-4223-b593-658a9248a350" valueTypeId="7deb2c5b-41de-4cfd-8d16-6d597af9296c"/>
+    <managerType typeId="b62f2530-89de-4acf-a9db-2f289c8039e8" valueTypeId="56ac0649-0e38-4a22-b3c7-20f27a4d4c32"/>
+  </producedTypes>
+  <name>КонтактныеЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контактные лица</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КонтактныеЛица.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.КонтактныеЛица.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="2e13bbca-066d-447e-b5ca-9d554d579407">
+    <name>КонтактныйНоме</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактный номе</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
